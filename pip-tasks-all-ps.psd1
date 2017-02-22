@@ -48,7 +48,14 @@ CLRVersion = ''
 ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
-RequiredModules = @('pip-tasks-ps', 'pip-tasks-common-ps', 'pip-tasks-dotnet-ps', 'pip-tasks-java-ps', 'pip-tasks-js-ps', 'pip-tasks-python-ps')
+RequiredModules = @(
+        'pip-tasks-ps', 
+        'pip-tasks-common-ps', 
+        'pip-tasks-dotnet-ps', 
+        'pip-tasks-java-ps', 
+        'pip-tasks-js-ps', 
+        'pip-tasks-python-ps'
+)
 
 # Assemblies that must be loaded prior to importing this module
 RequiredAssemblies = @()
