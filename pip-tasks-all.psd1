@@ -1,6 +1,6 @@
 ########################################################
 ##
-## pip-tasks-all-ps.psd1
+## pip-tasks-all.psd1
 ## Pip.Tasks.All - Integration Powersgell for Pip.Tasks
 ## Module definition
 ##
@@ -9,7 +9,7 @@
 @{
 
 # Script module or binary module file associated with this manifest
-ModuleToProcess = 'pip-tasks-all-ps.psm1'
+ModuleToProcess = 'pip-tasks-all.psm1'
 
 # Version number of this module.
 ModuleVersion = '1.0.0.0'
@@ -49,12 +49,12 @@ ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
 RequiredModules = @(
-        'pip-tasks-ps', 
-        'pip-tasks-common-ps', 
-        'pip-tasks-dotnet-ps', 
-        'pip-tasks-java-ps', 
-        'pip-tasks-js-ps', 
-        'pip-tasks-python-ps'
+        'pip-tasks', 
+        'pip-tasks-common', 
+        'pip-tasks-dotnet', 
+        'pip-tasks-java', 
+        'pip-tasks-js', 
+        'pip-tasks-python'
 )
 
 # Assemblies that must be loaded prior to importing this module
@@ -88,7 +88,7 @@ AliasesToExport = '*'
 ModuleList = @()
 
 # List of all files packaged with this module
-FileList = @('pip-tasks-all-ps.psm1')
+FileList = @('pip-tasks-all.psm1')
 
 # Private data to pass to the module specified in ModuleToProcess
 PrivateData = ''

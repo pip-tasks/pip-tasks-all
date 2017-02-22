@@ -1,6 +1,6 @@
 ########################################################
 ##
-## pip-tasks-all-ps.psm1
+## pip-tasks-all.psm1
 ## Pip.Tasks.All - Integration Powersgell for Pip.Tasks
 ## Startup module
 ##

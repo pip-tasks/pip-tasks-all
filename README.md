@@ -1,4 +1,4 @@
-# <img src="https://github.com/pip-tasks/pip-tasks-ps/raw/master/artifacts/logo.png" alt="Pip.Devs Logo" style="max-width:30%"> <br/> Integration Powershell module for Pip.Tasks
+# <img src="https://github.com/pip-tasks/pip-tasks/raw/master/artifacts/logo.png" alt="Pip.Devs Logo" style="max-width:30%"> <br/> Integration Powershell module for Pip.Tasks
 
 This Powershell module integrates all Pip.Tasks modules for easy import
 
